@@ -1,25 +1,27 @@
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .container {
-        width: 760px;
+        /* width: 100%; */
+        max-width: 600px;
     }
 }
 
 @media screen and (max-width: 480px) {
+
     .container {
-        width: 475px;
-        display: flex;
-        flex-direction: column;
+        max-width: 400px;
     }
 
     .why-us,
     .steps {
         margin: unset;
         padding: 3rem 0 0 0;
-    }
-
-    .steps {
-        width: 100%;
     }
 
     .row {
