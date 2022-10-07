@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 760px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 475px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why-us,
+    .steps {
+        margin: unset;
+        padding: 3rem 0 0 0;
+    }
+
+    .steps {
+        width: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row .col {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .why-us {
+        background-color: black;
+    }
+}
